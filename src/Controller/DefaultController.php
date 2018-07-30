@@ -12,7 +12,7 @@ class DefaultController extends Controller
 {
     /**
      * @Route("/", name="homepage")
-     * @Route("/{route}", name="vue_pages", requirements={"route"=".+"})
+     * @Route("/{route}", name="vue_pages", requirements={"route"="^(?!.*api).+"})
      * @Method("GET")
      */
     public function indexAction(Request $request)
@@ -25,11 +25,11 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/notification/register", name="notification_register")
+     * @Route("/api/colors", name="colors_route")
      */
     public function registerAction()
     {
 
-        return  new JsonResponse(array('new' => 'yes', "success" => true));
+        return  new JsonResponse(array('colors' => ['red', 'green','blue', 'yellow'], "success" => true));
     }
 }
