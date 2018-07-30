@@ -27,7 +27,7 @@ class DefaultController extends Controller
     /**
      * @Route("/api/colors", name="colors_route")
      */
-    public function registerAction()
+    public function colorsAction()
     {
 
         return  new JsonResponse(array('colors' => ['red', 'green','blue', 'yellow'], "success" => true));
