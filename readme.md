@@ -1,7 +1,5 @@
-##**Tutorial** at [**Digital Fortress**](https://digitalfortress.tech/tutorial/symfony-vue-js-integration/)
+**Tutorial** at [**Digital Fortress**](https://digitalfortress.tech/tutorial/symfony-vue-js-integration/)
 
-
-###Setup Project:
 
 **Requirements:**
 
@@ -17,4 +15,6 @@ You should have [**composer**](https://getcomposer.org/download/), [**node**](ht
 6. Build JS assets **`yarn run encore dev --watch`**
 7. Navigate to **`http://localhost:8000/`**
 
-Thats it folks!
+Thats all folks!
+
+If you have any doubts/errors, follow the tutorial at [https://digitalfortress.tech/tutorial/symfony-vue-js-integration/](https://digitalfortress.tech/tutorial/symfony-vue-js-integration/) 
