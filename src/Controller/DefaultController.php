@@ -12,7 +12,7 @@ class DefaultController extends Controller
 {
     /**
      * @Route("/", name="homepage")
-     * @Route("/{route}", name="vue_pages", requirements={"route"="^(?!.*api).+"})
+     * @Route("/{route}", name="vue_pages", requirements={"route"="^(?!.*api|_wdt|_profiler).+"})
      * @Method("GET")
      */
     public function indexAction(Request $request)
